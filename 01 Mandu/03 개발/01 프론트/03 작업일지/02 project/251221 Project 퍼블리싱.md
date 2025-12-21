@@ -10,4 +10,4 @@
 - react-calendar
 
 ## 5. 개발 진행 스크린샷
-<img src="../98-Image/01-Mandu/01-project.png">
+<img src="98-Image/01-Mandu/01-project.png">
