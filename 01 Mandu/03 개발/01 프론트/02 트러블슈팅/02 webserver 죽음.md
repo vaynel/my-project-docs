@@ -1,6 +1,6 @@
 #  SSH 세션 종료시 Webserver 같이 종료됨
-문제 파악 : SSH 세션 종료시 해당 계정에 nohup 실행중인 웹 서버가 같이 죽음
-문제 원인
+**문제 파악** : SSH 세션 종료시 해당 계정에 nohup 실행중인 웹 서버가 같이 종료됨   
+**문제 원인**
 ```bash
 grep -E "KillUserProcesses" /etc/systemd/logind.conf
 #KillUserProcesses=no 
