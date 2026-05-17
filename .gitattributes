@@ -1,0 +1,4 @@
+# Obsidian Excel plugin files must keep LF line endings
+# CRLF breaks the plugin's "# Excel\n" search in getExcelData()
+*_xlsx.md text eol=lf
+*.sheet.md text eol=lf
