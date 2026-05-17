@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "671027ef81bc3fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "9315737fd4478f4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37e247718de017e1",
+            "type": "leaf",
+            "state": {
+              "type": "excel-view",
+              "state": {
+                "file": "04AirClean/99_backend_check_xlsx.md"
+              },
+              "icon": "lucide-file",
+              "title": "99_backend_check_xlsx"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd6f43da5a432aab",
+    "type": "split",
+    "children": [
+      {
+        "id": "a83419c3cc48b67e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a10ab59ec0a50b20",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "f978408ee1b1b1ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "6c58b85ff09239dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "a1b4cf1a132ae469",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a6ac26984a66128",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9d2f2416419a468",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "d2b21e3a0725e734",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "95e8d3972a18fd85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "0a6034e112928d35",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "028ea36ced320b0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "excel:Create Excel File": false
+    }
+  },
+  "active": "37e247718de017e1",
+  "lastOpenFiles": [
+    "04AirClean/99_frontend_patch_xlsx.md",
+    "04AirClean/99_backend_check_xlsx.md",
+    "04AirClean/99_API_xlsx.md",
+    "04AirClean/09_페이지별_API_점검_xlsx.md",
+    "04AirClean/08_초기 데이터(Seed Data) 현황.md",
+    "04AirClean/06_서비스 점검.md",
+    "04AirClean/07_frontend 점검.md",
+    "04AirClean/05_서비스 실행.md",
+    "04AirClean/03_API 명세서.md",
+    "04AirClean/02_인프라 설계도.md",
+    "04AirClean/01_ERD.md",
+    "04AirClean/00_기획서.md",
+    "04AirClean/기획서.md",
+    "04AirClean/ERD.md",
+    "04AirClean/서비스 점검.md",
+    "04AirClean/04_보안 명세서.md",
+    "04AirClean/서비스 실행.md",
+    "04AirClean/API 명세서.md",
+    "04AirClean/backend_check_xlsx.md",
+    "04AirClean/인프라 설계도.md",
+    "04AirClean/API_xlsx.md",
+    "04AirClean/보안 명세서.md",
+    "04AirClean/API.md",
+    "04AirClean/API.xlsx.md",
+    "04AirClean/~$API.xlsx",
+    "04AirClean/API.xlsx",
+    "04AirClean/새 Microsoft Excel 워크시트.xlsx",
+    "04AirClean/API 명세서.md.tmp.38240.20456f947d50",
+    "98Image/04Airclean/infrastructure_design.svg",
+    "98Image/04Airclean",
+    "98Image/04 Airclean/infrastructure_design.svg",
+    "98Image/01 Mandu/03 project.png",
+    "98Image/01 Mandu/02 Task Detail 1차.png",
+    "98Image/01 Mandu/01 project.png",
+    "98Image/04 Airclean",
+    "98Image/01 Mandu",
+    "98Image",
+    "04 AirClean/인프라 설계도 (Infrastructure Design).md",
+    "04AirClean",
+    "04 AirClean/API 명세서.md",
+    "98 Image/04 Airclean/infrastructure_design.svg",
+    "98 Image/04 Airclean",
+    "98 Image/01 Mandu/01 project.png",
+    "98 Image/01 Mandu/02 Task Detail 1차.png",
+    "98 Image/01 Mandu/03 project.png"
+  ]
+}

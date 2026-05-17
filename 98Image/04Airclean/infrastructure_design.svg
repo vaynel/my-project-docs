@@ -1,0 +1,121 @@
+<svg width="1150" height="580" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>text{font-family:Arial,sans-serif}</style>
+  <marker id="a" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+    <polygon points="0 0,8 3,0 6" fill="#444"/>
+  </marker>
+  <marker id="ab" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+    <polygon points="0 0,8 3,0 6" fill="#1565c0"/>
+  </marker>
+  <marker id="ag" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+    <polygon points="0 0,8 3,0 6" fill="#2e7d32"/>
+  </marker>
+</defs>
+
+<!-- Background -->
+<rect width="1150" height="580" fill="#eceff1"/>
+
+<!-- ===== USER ===== -->
+<rect x="12" y="248" width="92" height="60" rx="6" fill="white" stroke="#90a4ae" stroke-width="1.5"/>
+<text x="58" y="273" text-anchor="middle" font-size="11" font-weight="bold" fill="#37474f">User</text>
+<text x="58" y="291" text-anchor="middle" font-size="10" fill="#78909c">Browser</text>
+
+<!-- User → Nginx -->
+<line x1="104" y1="273" x2="158" y2="148" stroke="#444" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="108" y="220" font-size="9" fill="#1565c0" font-weight="bold">HTTPS</text>
+<text x="104" y="232" font-size="9" fill="#1565c0">80 / 443</text>
+
+<!-- ===== AIRCLEAN SERVER BOX (x:130-550, y:30-565) ===== -->
+<rect x="130" y="30" width="420" height="535" rx="10" fill="white" stroke="#546e7a" stroke-width="2"/>
+<rect x="130" y="30" width="420" height="43" rx="10" fill="#546e7a"/>
+<rect x="130" y="57" width="420" height="16" fill="#546e7a"/>
+<text x="340" y="59" text-anchor="middle" font-size="14" font-weight="bold" fill="white">AirClean Server</text>
+
+<!-- Nginx (y:85-148) -->
+<rect x="160" y="85" width="360" height="63" rx="6" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5"/>
+<text x="340" y="112" text-anchor="middle" font-size="12" font-weight="bold" fill="#1565c0">Nginx (Web Server)</text>
+<text x="340" y="130" text-anchor="middle" font-size="10" fill="#546e7a">Reverse Proxy  ·  Port 80 (HTTP) / 443 (HTTPS)</text>
+
+<!-- Nginx → Next.js -->
+<line x1="263" y1="148" x2="247" y2="175" stroke="#444" stroke-width="1.5" marker-end="url(#a)"/>
+<!-- Nginx → Nest.js -->
+<line x1="417" y1="148" x2="433" y2="175" stroke="#444" stroke-width="1.5" marker-end="url(#a)"/>
+
+<!-- Next.js (x:160-328, y:178-241) -->
+<rect x="160" y="178" width="168" height="63" rx="6" fill="#e8f5e9" stroke="#43a047" stroke-width="1.5"/>
+<text x="244" y="205" text-anchor="middle" font-size="12" font-weight="bold" fill="#2e7d32">Next.js</text>
+<text x="244" y="223" text-anchor="middle" font-size="10" fill="#546e7a">Frontend</text>
+
+<!-- Nest.js (x:352-520, y:178-241) -->
+<rect x="352" y="178" width="168" height="63" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="1.5"/>
+<text x="436" y="205" text-anchor="middle" font-size="12" font-weight="bold" fill="#e65100">Nest.js</text>
+<text x="436" y="223" text-anchor="middle" font-size="10" fill="#546e7a">Backend API</text>
+
+<!-- Nest.js → MariaDB -->
+<line x1="436" y1="241" x2="395" y2="270" stroke="#444" stroke-width="1.5" marker-end="url(#a)"/>
+
+<!-- MariaDB (x:160-520, y:273-336) -->
+<rect x="160" y="273" width="360" height="63" rx="6" fill="#fce4ec" stroke="#e91e63" stroke-width="1.5"/>
+<text x="340" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#880e4f">MariaDB</text>
+<text x="340" y="318" text-anchor="middle" font-size="10" fill="#546e7a">Database  ·  DB Dump (백업 대상)</text>
+
+<!-- File Storage (x:160-520, y:363-426) -->
+<rect x="160" y="363" width="360" height="63" rx="6" fill="#f3e5f5" stroke="#8e24aa" stroke-width="1.5"/>
+<text x="340" y="390" text-anchor="middle" font-size="12" font-weight="bold" fill="#4a148c">File Storage</text>
+<text x="340" y="408" text-anchor="middle" font-size="10" fill="#546e7a">/var/data/reports  ·  파일 백업 대상</text>
+
+<!-- Firewall (y:452-507) -->
+<rect x="160" y="452" width="360" height="55" rx="6" fill="#fff9c4" stroke="#f9a825" stroke-width="1.2" stroke-dasharray="5,3"/>
+<text x="340" y="475" text-anchor="middle" font-size="11" font-weight="bold" fill="#f57f17">Firewall Policy</text>
+<text x="340" y="494" text-anchor="middle" font-size="10" fill="#546e7a">허용: Port 80, 443  ·  그 외 인바운드 차단</text>
+
+<!-- ===== GAP (x:550-640): VPN + rsync connections ===== -->
+
+<!-- VPN Tunnel line (at y=132) -->
+<line x1="550" y1="132" x2="663" y2="132" stroke="#1565c0" stroke-width="2.5" stroke-dasharray="9,5" marker-end="url(#ab)"/>
+<!-- VPN label -->
+<rect x="553" y="102" width="84" height="22" rx="3" fill="#e3f2fd" fill-opacity="0.95"/>
+<text x="595" y="118" text-anchor="middle" font-size="9" fill="#1565c0" font-weight="bold">VPN Tunnel</text>
+
+<!-- rsync backup line (y:395→308) -->
+<line x1="550" y1="395" x2="663" y2="308" stroke="#2e7d32" stroke-width="2" stroke-dasharray="8,4" marker-end="url(#ag)"/>
+<!-- rsync label -->
+<rect x="553" y="362" width="84" height="28" rx="3" fill="#e8f5e9" fill-opacity="0.95"/>
+<text x="595" y="375" text-anchor="middle" font-size="9" fill="#2e7d32" font-weight="bold">rsync / scp</text>
+<text x="595" y="387" text-anchor="middle" font-size="9" fill="#2e7d32">매일 03:00</text>
+
+<!-- ===== BACKUP SERVER BOX (x:640-1130, y:30-565) ===== -->
+<rect x="640" y="30" width="490" height="535" rx="10" fill="#f5f5f5" stroke="#546e7a" stroke-width="2"/>
+<rect x="640" y="30" width="490" height="43" rx="10" fill="#607d8b"/>
+<rect x="640" y="57" width="490" height="16" fill="#607d8b"/>
+<text x="885" y="59" text-anchor="middle" font-size="14" font-weight="bold" fill="white">BackUp Server</text>
+
+<!-- VPN Server (x:665-870, y:95-170) -->
+<rect x="665" y="95" width="205" height="75" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+<text x="767" y="127" text-anchor="middle" font-size="12" font-weight="bold" fill="#1565c0">VPN Server</text>
+<text x="767" y="147" text-anchor="middle" font-size="10" fill="#546e7a">WireGuard / OpenVPN</text>
+
+<!-- VPN Server → BackUp Server inner -->
+<line x1="767" y1="170" x2="767" y2="268" stroke="#444" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="773" y="224" font-size="9" fill="#546e7a">내부 라우팅</text>
+
+<!-- BackUp Server inner (x:665-870, y:270-345) -->
+<rect x="665" y="270" width="205" height="75" rx="6" fill="#e8f5e9" stroke="#43a047" stroke-width="1.5"/>
+<text x="767" y="302" text-anchor="middle" font-size="12" font-weight="bold" fill="#2e7d32">BackUp Server</text>
+<text x="767" y="320" text-anchor="middle" font-size="10" fill="#546e7a">rsync 수신 / 데이터 저장</text>
+
+<!-- BackUp Server → BackUp Disk -->
+<line x1="870" y1="307" x2="898" y2="307" stroke="#444" stroke-width="1.5" marker-end="url(#a)"/>
+
+<!-- BackUp Disk (x:900-1110, y:270-345) -->
+<rect x="900" y="270" width="200" height="75" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+<text x="1000" y="302" text-anchor="middle" font-size="12" font-weight="bold" fill="#e65100">BackUp Disk</text>
+<text x="1000" y="320" text-anchor="middle" font-size="10" fill="#546e7a">External Storage</text>
+
+<!-- Recovery Scenario (y:400-480) -->
+<rect x="665" y="400" width="435" height="80" rx="6" fill="#fff3e0" stroke="#fb8c00" stroke-width="1" stroke-dasharray="5,3"/>
+<text x="882" y="423" text-anchor="middle" font-size="11" font-weight="bold" fill="#e65100">Recovery 시나리오</text>
+<text x="882" y="444" text-anchor="middle" font-size="10" fill="#546e7a">BackUp Disk → BackUp Server</text>
+<text x="882" y="462" text-anchor="middle" font-size="10" fill="#546e7a">→ (VPN Tunnel) → AirClean Server 복구</text>
+
+</svg>
