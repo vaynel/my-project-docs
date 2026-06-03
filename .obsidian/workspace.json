@@ -184,9 +184,21 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "6f424640ffe7bcaa",
+  "active": "1b24da34be16b818",
   "lastOpenFiles": [
+    "03 재무관리/14_Elasticsearch_설계서.md",
     "03 재무관리/12_동기화_전략_설계.md",
+    "03 재무관리/11_브로커_토큰캐싱_인터페이스.md",
+    "03 재무관리/10_증권별API연동.md",
+    "04AirClean/99_API_xlsx.md",
+    "04AirClean/99_frontend_patch_xlsx.md",
+    "04AirClean/Excel 2026-05-17 09.38.09.sheet.md",
+    "04AirClean/99_backend_check_xlsx.md",
+    "04AirClean/08_초기 데이터(Seed Data) 현황.md",
+    "04AirClean/04_보안 명세서.md",
+    "04AirClean/03_API 명세서.md",
+    "04AirClean/01_ERD.md",
+    "03 재무관리/13_룰_정의서.md",
     "03 재무관리/08_Docker_운영가이드.md",
     "03 재무관리/04_API명세서.md",
     "03 재무관리/00 기획서.md",
@@ -197,21 +209,9 @@
     "03 재무관리/05_OWASP보안설계서.md",
     "03 재무관리/06_개발_Todo.sheet.md.tmp.35768.889dc518d0c6",
     "03 재무관리/07_개발진행현황.md",
-    "03 재무관리/13_룰_정의서.md",
-    "03 재무관리/11_브로커_토큰캐싱_인터페이스.md",
-    "03 재무관리/10_증권별API연동.md",
     "03 재무관리/09_디자인가이드.md",
     "03 재무관리/03_ERD.md",
     "04AirClean/09_페이지별_API_점검_xlsx.md",
-    "03 재무관리/02_기능정의서.md",
-    "04AirClean/08_초기 데이터(Seed Data) 현황.md",
-    "04AirClean/07_frontend 점검.md",
-    "04AirClean/98_frontend_patch_xlsx.md",
-    "04AirClean/99_API_xlsx.md",
-    "04AirClean/99_frontend_patch_xlsx.md",
-    "04AirClean/99_backend_check_xlsx.md",
-    "04AirClean/Excel 2026-05-17 09.38.09.sheet.md",
-    "04AirClean/01_ERD.md",
-    "04AirClean/02_인프라 설계도.md"
+    "03 재무관리/02_기능정의서.md"
   ]
 }
