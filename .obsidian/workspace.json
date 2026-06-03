@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "671027ef81bc3fd0",
+    "id": "653c7831d09403da",
     "type": "split",
     "children": [
       {
-        "id": "9315737fd4478f4b",
+        "id": "eb09f84632d0f0f3",
         "type": "tabs",
         "children": [
           {
-            "id": "37e247718de017e1",
+            "id": "1b24da34be16b818",
             "type": "leaf",
             "state": {
-              "type": "excel-view",
+              "type": "markdown",
               "state": {
-                "file": "04AirClean/99_backend_check_xlsx.md"
+                "file": "03 재무관리/13_룰_정의서.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "99_backend_check_xlsx"
+              "title": "13_룰_정의서"
             }
           }
         ]
@@ -25,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cd6f43da5a432aab",
+    "id": "29027d9d25ee10f5",
     "type": "split",
     "children": [
       {
-        "id": "a83419c3cc48b67e",
+        "id": "39f0847121bf5d28",
         "type": "tabs",
         "children": [
           {
-            "id": "a10ab59ec0a50b20",
+            "id": "6f424640ffe7bcaa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +48,7 @@
             }
           },
           {
-            "id": "f978408ee1b1b1ec",
+            "id": "7562cc4ab9c61c9a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +65,7 @@
             }
           },
           {
-            "id": "6c58b85ff09239dd",
+            "id": "64442e263467d33d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -76,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 300
   },
   "right": {
-    "id": "a1b4cf1a132ae469",
+    "id": "228c2502e1b6bc44",
     "type": "split",
     "children": [
       {
-        "id": "0a6ac26984a66128",
+        "id": "0f3e211c90ba322b",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d2f2416419a468",
+            "id": "08df2b06089e61cf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04AirClean/99_frontend_patch_xlsx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "99_frontend_patch_xlsx 의 백링크"
             }
           },
           {
-            "id": "d2b21e3a0725e734",
+            "id": "9cfc2823e5e9f359",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04AirClean/99_frontend_patch_xlsx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "99_frontend_patch_xlsx 의 나가는 링크"
             }
           },
           {
-            "id": "95e8d3972a18fd85",
+            "id": "ae56132db75582ea",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +137,7 @@
             }
           },
           {
-            "id": "0a6034e112928d35",
+            "id": "b226c0e68a967936",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,17 +151,18 @@
             }
           },
           {
-            "id": "028ea36ced320b0f",
+            "id": "8d872b4aa5d6ab70",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "04AirClean/99_frontend_patch_xlsx.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "99_frontend_patch_xlsx 의 개요"
             }
           }
         ]
@@ -179,52 +184,34 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "37e247718de017e1",
+  "active": "6f424640ffe7bcaa",
   "lastOpenFiles": [
+    "03 재무관리/12_동기화_전략_설계.md",
+    "03 재무관리/08_Docker_운영가이드.md",
+    "03 재무관리/04_API명세서.md",
+    "03 재무관리/00 기획서.md",
+    "03 재무관리/00 기획서2.md",
+    "03 재무관리/01_기획서.md",
+    "03 재무관리/06_개발_Todo.sheet.md",
+    "03 재무관리/Excel 2026-06-03 12.15.27.sheet.md",
+    "03 재무관리/05_OWASP보안설계서.md",
+    "03 재무관리/06_개발_Todo.sheet.md.tmp.35768.889dc518d0c6",
+    "03 재무관리/07_개발진행현황.md",
+    "03 재무관리/13_룰_정의서.md",
+    "03 재무관리/11_브로커_토큰캐싱_인터페이스.md",
+    "03 재무관리/10_증권별API연동.md",
+    "03 재무관리/09_디자인가이드.md",
+    "03 재무관리/03_ERD.md",
+    "04AirClean/09_페이지별_API_점검_xlsx.md",
+    "03 재무관리/02_기능정의서.md",
+    "04AirClean/08_초기 데이터(Seed Data) 현황.md",
+    "04AirClean/07_frontend 점검.md",
+    "04AirClean/98_frontend_patch_xlsx.md",
+    "04AirClean/99_API_xlsx.md",
     "04AirClean/99_frontend_patch_xlsx.md",
     "04AirClean/99_backend_check_xlsx.md",
-    "04AirClean/99_API_xlsx.md",
-    "04AirClean/09_페이지별_API_점검_xlsx.md",
-    "04AirClean/08_초기 데이터(Seed Data) 현황.md",
-    "04AirClean/06_서비스 점검.md",
-    "04AirClean/07_frontend 점검.md",
-    "04AirClean/05_서비스 실행.md",
-    "04AirClean/03_API 명세서.md",
-    "04AirClean/02_인프라 설계도.md",
+    "04AirClean/Excel 2026-05-17 09.38.09.sheet.md",
     "04AirClean/01_ERD.md",
-    "04AirClean/00_기획서.md",
-    "04AirClean/기획서.md",
-    "04AirClean/ERD.md",
-    "04AirClean/서비스 점검.md",
-    "04AirClean/04_보안 명세서.md",
-    "04AirClean/서비스 실행.md",
-    "04AirClean/API 명세서.md",
-    "04AirClean/backend_check_xlsx.md",
-    "04AirClean/인프라 설계도.md",
-    "04AirClean/API_xlsx.md",
-    "04AirClean/보안 명세서.md",
-    "04AirClean/API.md",
-    "04AirClean/API.xlsx.md",
-    "04AirClean/~$API.xlsx",
-    "04AirClean/API.xlsx",
-    "04AirClean/새 Microsoft Excel 워크시트.xlsx",
-    "04AirClean/API 명세서.md.tmp.38240.20456f947d50",
-    "98Image/04Airclean/infrastructure_design.svg",
-    "98Image/04Airclean",
-    "98Image/04 Airclean/infrastructure_design.svg",
-    "98Image/01 Mandu/03 project.png",
-    "98Image/01 Mandu/02 Task Detail 1차.png",
-    "98Image/01 Mandu/01 project.png",
-    "98Image/04 Airclean",
-    "98Image/01 Mandu",
-    "98Image",
-    "04 AirClean/인프라 설계도 (Infrastructure Design).md",
-    "04AirClean",
-    "04 AirClean/API 명세서.md",
-    "98 Image/04 Airclean/infrastructure_design.svg",
-    "98 Image/04 Airclean",
-    "98 Image/01 Mandu/01 project.png",
-    "98 Image/01 Mandu/02 Task Detail 1차.png",
-    "98 Image/01 Mandu/03 project.png"
+    "04AirClean/02_인프라 설계도.md"
   ]
 }

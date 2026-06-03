@@ -4,10 +4,10 @@
 
 airCleanWeb은 초기 데이터를 주입하는 방식이 **두 곳**에 나뉘어 존재한다.
 
-| 구분 | 파일 | 실행 시점 |
-|------|------|-----------|
-| SQL 초기화 스크립트 | `init-scripts/01-init-database.sql` | Docker 컨테이너 최초 기동 시 자동 실행 |
-| Prisma Seed 스크립트 | `backend/prisma/seed.ts` | `npx prisma db seed` 명령 수동 실행 |
+| 구분               | 파일                                  | 실행 시점                         |
+| ---------------- | ----------------------------------- | ----------------------------- |
+| SQL 초기화 스크립트     | `init-scripts/01-init-database.sql` | Docker 컨테이너 최초 기동 시 자동 실행     |
+| Prisma Seed 스크립트 | `backend/prisma/seed.ts`            | `npx prisma db seed` 명령 수동 실행 |
 
 > **주의:** 두 스크립트는 같은 데이터를 다루지만 내용에 차이가 있다.  
 > 실제 개발·테스트 환경에서는 **Prisma Seed**를 기준으로 사용해야 한다.
